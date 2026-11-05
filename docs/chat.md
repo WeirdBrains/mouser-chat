@@ -133,3 +133,26 @@ fake provider in `plugins/chat/tests/through_mouser.rs`.
 - Showing cost.
 - Images.
 - More than one chat at a time.
+
+## Context menu
+
+Right-click (or `.` while chat has the keyboard; docs/modes.md §Context menus):
+
+- on a message (yours, an answer, a note or an error): copy, quote in a reply
+  (the text as `> ` lines in the input), retry (your message again; on an
+  answer, the message it answered), delete from view, type a message (`i`),
+  cancel the answer (`x`);
+- on a tool call card: show / hide the output, copy the output, copy the call,
+  delete from view, type, cancel;
+- elsewhere: switch model (`m`), new chat (`l`), scroll up / down
+  (PageUp / PageDown), type, cancel.
+
+"Delete from view" only hides the row; the agent's history is unchanged (a new
+chat clears it). Approval cards are still answered only in Mouser's popup.
+
+## Panel size
+
+Mouser 1.4 lets you size the mode panel (`F` fullscreen, `]` / `[` taller /
+shorter while the mode has the keyboard, or drag its bottom edge); this plugin
+lays its panel out to that size (`dock` in `view.resized`). Older Mouser
+versions keep the plugin's own height.
