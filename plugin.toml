@@ -2,7 +2,7 @@
 # mode when installed. The agent itself runs in Mouser: models, API keys,
 # tools and their approval cards never reach this program.
 name = "chat"
-version = "0.1.0"
+version = "0.1.1"
 description = "chat mode: ask about the terminal; the agent, its models and tool approvals run in Mouser"
 permissions = ["agent.use"]
 
