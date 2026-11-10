@@ -17,7 +17,8 @@ Or in Mouser: `esc :pi chat`.
 
 Open it from Mouser's mode line (`esc :` then its hotkey or name). Its keys are listed in
 [plugin.toml](../plugin.toml) and shown by Mouser (`esc :help`). Permissions it asks for:
-`agent.use`.
+`agent.use`, and `files.read` to show pictures, video and sound named in the chat.
+Version 0.1.3 needs Mouser 1.5 or later.
 
 ## How it works
 
