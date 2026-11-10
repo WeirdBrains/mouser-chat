@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## [0.1.4] - 2026-11-10
+
+### Changed
+
+- On Mouser 1.6+ (the `media.1` feature) Mouser runs the pictures, video and sound in the chat: it draws and plays them inline and fullscreen, and handles their keys. On older Mouser versions the chat draws them itself as before.
+- A clip playing in Mouser's player keeps playing when the chat scrolls it out of view.
+- Built on mouser-mode-api 0.4 and mouser-media 0.2.
+
 ## [0.1.3] - 2026-11-10
 
 Needs Mouser 1.5 (frames, bubbles and the services below); Mouser 1.5 pins and installs it.

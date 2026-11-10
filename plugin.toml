@@ -3,7 +3,7 @@
 # tools and their approval cards never reach this program. files.read is
 # asked for only when a message names a picture, video or sound to show.
 name = "chat"
-version = "0.1.3"
+version = "0.1.4"
 description = "chat mode: ask about the terminal or have it run commands; the agent, its models (Hugging Face too) and tool approvals run in Mouser"
 permissions = ["agent.use", "files.read"]
 
