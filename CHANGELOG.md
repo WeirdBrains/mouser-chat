@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## [0.1.5] - 2026-11-11
+
+### Fixed
+
+- The model picker (click the model name) stays open while the pointer moves over it and a click picks a model; only a click outside it closes it. Before, any pointer movement closed it, so a model couldn't be chosen with the mouse.
+
 ## [0.1.4] - 2026-11-10
 
 ### Changed
